@@ -48,7 +48,7 @@ app.get("/notes", async (req, res) => {
       message: err.message,
     });
   }
-});
+})
 
 app.put("/notes/edit/:id", async (req, res) => {
   try {
