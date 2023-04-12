@@ -17,7 +17,7 @@ const Note = () => {
 
   useEffect(() => {
     getData();
-  }, []);
+  }, [])
 
   const handleAdd = async () => {
     const data = { content: text };
