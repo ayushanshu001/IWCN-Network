@@ -36,7 +36,7 @@ To get started with this project, you'll need to have Node.js and MySQL installe
 3.  Create a `.env` file in the root directory of the project and add your MySQL connection details:
     ```
     PASSWORD=<Your MySql DB password>
-    PORT=8005
+    PORT=8001
     ```    
     
 5.  Start the server:
