@@ -21,6 +21,10 @@ const Note = () => {
 
   const handleAdd = async () => {
     const data = { content: text };
+    if (!text) {
+        alert('Please add note');
+        return;
+      }
     try {
       const addData = await axios.post(
         `http://localhost:8001/notes/posts`,
