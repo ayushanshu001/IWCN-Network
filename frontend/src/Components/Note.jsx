@@ -94,7 +94,7 @@ const Note = () => {
                 <button onClick={() => handleDelete(e.id)}>Delete</button>
               </div>
             </>
-          );
+          )
         })}
       </div>
     </>
