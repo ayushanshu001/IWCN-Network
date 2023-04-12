@@ -14,6 +14,7 @@ This is a simple web-based application that allows users to create, read and del
 ## Features
 - Create notes with content.
 - View a list of all notes.
+- Able to edit/update.
 - Delete existing notes.
 
 ## Getting Started
