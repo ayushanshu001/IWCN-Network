@@ -51,9 +51,29 @@ To get started with this project, you'll need to have Node.js and MySQL installe
     
     ```
     
-7. Start the server:
+8. Start the server:
     ```
     npm start
     ``` 
-    
+
+9. Open a browser and go to http://localhost:3000
+
+
+## Usage
+To use the note app, follow these steps:
+
+1. Open the app in your browser by going to http://localhost:3000
+2. Enter content for the note.
+3. Click on "Add Note" to create a new note.
+4. To delete a note, click on the "Delete" button.
+
+
+## Technologies Used
+- React
+- Node.js
+- MySQL
+- Express.js
+
+
+
     
