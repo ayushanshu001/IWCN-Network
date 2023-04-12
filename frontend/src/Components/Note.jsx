@@ -53,7 +53,7 @@ const Note = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:8001/notes/delete${id}`);
+      await axios.delete(`http://localhost:8001/notes/delete/${id}`);
       alert("Note Deleted");
       getData();
     } catch (err) {
@@ -94,7 +94,7 @@ const Note = () => {
               >
                 {e.id}
                 <p>{e.content}</p>
-                <button onClick={() => handleEdit(e.id)}>Edit</button>
+                <button style={{backgroundColor:'red'}} onClick={() => handleEdit(e.id)}>Edit</button>
                 <button onClick={() => handleDelete(e.id)}>Delete</button>
               </div>
             </>
