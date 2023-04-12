@@ -69,7 +69,7 @@ To use the note app, follow these steps:
 
 
 ## Technologies Used
-- React
+- React.js
 - Node.js
 - MySQL
 - Express.js
