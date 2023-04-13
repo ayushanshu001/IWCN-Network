@@ -19,6 +19,22 @@ This is a simple web-based application that allows users to create, read and del
 - Able to edit/update.
 - Delete existing notes.
 
+## Brief to run locally
+Clone Repository
+Go to the backend directory
+Install node packages
+Create .env file in root directory
+Create Database in Mysql locally
+PORT=8001 PASSWORD=<YOUR-PASSWORD> DATABASE=<YOUR-DB> in .env file
+You have Mysql locally installed in your system
+Lastly run server
+
+Go to the frontend directory
+Install node packages
+Run on localhost PORT
+
+
+
 ## Getting Started
 To get started with this project, you'll need to have Node.js and MySQL installed on your machine. You can install Node.js and MySQL.
 
