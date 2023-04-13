@@ -37,6 +37,7 @@ To get started with this project, you'll need to have Node.js and MySQL installe
     ```
     PASSWORD=<Your MySql DB password>
     PORT=8001
+    DATABASE=<Database name>
     ```    
     
 5.  Start the server:
