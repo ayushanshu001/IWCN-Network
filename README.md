@@ -1,5 +1,7 @@
 # Note Application
 
+## Run Locally
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
