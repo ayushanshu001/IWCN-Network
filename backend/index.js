@@ -3,11 +3,12 @@ require("dotenv").config();
 const Sequelize = require("sequelize");
 const cors = require("cors");
 
-const PORT = process.env.PORT;
 
-const seq = new Sequelize("note_app", "root", process.env.PASSWORD, {
-  host: "localhost",
-  dialect: "mysql",
+
+const seq = new Sequelize("noteapplication","admin", "ayushanshu", {
+  host: 'noteapp.cfao7ipk9cb1.eu-north-1.rds.amazonaws.com',
+  port:"3306",
+  dialect: "mysql"
 });
 
 const note = seq.define("notes", {
@@ -87,7 +88,10 @@ app.delete("/notes/delete/:id", async (req, res) => {
 });
 
 seq.sync().then(() => {
-  app.listen(PORT, () => {
-    console.log(`DB connected PORT ${8001}`);
+  app.listen(3001, () => {
+    console.log(`DB connected`);
   });
+})
+.catch((error) => {
+  console.error('Unable to connect to the database:', error);
 });
